@@ -84,7 +84,7 @@ header .logo
 }
 .text
 {
-  position: relative;
+  position: fixed;
   z-index: 10;
 }
 
