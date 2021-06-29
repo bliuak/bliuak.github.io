@@ -84,7 +84,7 @@ header .logo
 }
 .text
 {
-  position: relative;
+  position: center;
   z-index: 10;
 }
 
@@ -95,8 +95,6 @@ header .logo
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
-  justify-content: center;
-  align-items: center;
 }
 .text h3
 {
@@ -105,8 +103,6 @@ header .logo
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
-  justify-content: center;
-  align-items: center;
 }
 .text p
 {
