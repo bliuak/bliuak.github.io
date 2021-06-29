@@ -24,12 +24,23 @@
         <a href="">To Website</a>
       </div>  
     </section>
+    <ul class="social">
+      <li><a href="#"><img src="discord.png"" alt=""></a></li>
+    </ul>
     <div class="menu">
       <ul>
         <li><a href="#">T</a></li>
         <li><a href="#">T</a></li>
         <li><a href="#">T</a></li>
         <li><a href="#">T</a></li>
-    </div>    
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
   </body>
 </html>
