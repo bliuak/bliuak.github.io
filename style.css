@@ -53,14 +53,14 @@
   position: relative;
   width: 60px;
   height: 60px;
-  background: url("test.png");
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
   cursor: pointer;
 }
 .toggle.active {
-  background: url("close.png");
+  background: url(https://i.ibb.co/rt3HybH/close.png);
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: center;
@@ -129,7 +129,7 @@
   display: inline-block;
   filter: invert(1);
   margin-right: 20px;
-  transform: scale(0.05);
+  transform: scale(0.1);
   transition: 0.5s;
 
 }
