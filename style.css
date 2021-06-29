@@ -87,8 +87,6 @@ header .logo
   position: fixed;
   z-index: 10;
   text-align: center; 
-  justify-content: center;
-  align-items: center;
 }
 
 .text h2
