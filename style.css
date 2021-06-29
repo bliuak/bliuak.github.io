@@ -84,9 +84,8 @@ header .logo
 }
 .text
 {
-  position: fixed;
+  position: relative;
   z-index: 10;
-  text-align: center; 
 }
 
 .text h2
